@@ -1,4 +1,42 @@
-h1{
-    font-size: 200px;
-    color: blue;
-}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }
+  .caixa {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .conteudo {
+    float: left;
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .barra {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  @media (max-width: 768px) {
+    .conteudo, .barra {
+      float: none;
+      width: 100%;
+    }
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    clear: both;
+  }
+  
