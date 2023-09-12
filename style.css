@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    
   }
   header {
     background-color: #333;
@@ -38,5 +39,8 @@ body {
     text-align: center;
     padding: 1em;
     clear: both;
+  }
+  article{
+      height: 110vh;
   }
   
